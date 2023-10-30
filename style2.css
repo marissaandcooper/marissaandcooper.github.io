@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=DM+Serif+Display&family=Homemade+Apple&family=Josefin+Slab&family=Limelight&family=Poiret+One&family=Smokum&display=swap');
+
+:root {
+  --header-font: 'Poiret One';
+  --main-font: 'Josefin Slab';
+  --main-bg: #000;
+  --main-text: #FFF;
+  --accent: #FFC900;
+  --accent-transparent: #FFC90000;
+  --overlay-color: #0005;
+  --btn-bg: #0008;
+
+  background-color: var(--main-bg);
+}
+
+body {
+  background-image: url('ttten.svg');
+  background-position-x: 61%;
+  background-size: cover;
+  font-size: 125%;
+}
+
+h1 {
+  font-size: 5em;
+  text-shadow: -1px 1px 0px var(--accent);
+}

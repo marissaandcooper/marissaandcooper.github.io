@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=DM+Serif+Display&family=Homemade+Apple&family=Imbue:opsz@10..100&family=Josefin+Slab&family=Limelight&family=Monoton&family=Neonderthaw&family=Poiret+One&family=Quicksand&family=Smokum&family=Tilt+Neon&display=swap');
+
+:root {
+  --header-font: 'Smokum';
+  --main-font: 'Caprasimo';
+  --main-bg: #332916;
+  --main-text: #ffec3f;
+  --accent: #ffed9d;
+  --accent-transparent: #ff000000;
+  --overlay-color: rgba(97, 39, 0, 0.459);
+  --btn-bg: #0008;
+
+  background-color: var(--main-bg);
+}
+
+body {
+  background-image: url('https://media.tenor.com/5gBoMM1iytcAAAAC/yee-haw.gif');
+  font-size: 125%;
+}
+
+h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+.hide {
+  display: block !important;
+}

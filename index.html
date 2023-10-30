@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styleA.css" rel="stylesheet" id="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script>
+      function changeStylesheet(stylesheet) {
+        document.getElementById('stylesheet').href = stylesheet;
+        toggleButtons();
+      }
+
+      function toggleButtons() {
+        const buttonContainer = document.querySelector('.button-container');
+        buttonContainer.classList.toggle('show-buttons');
+    }
+    </script>
+    <title>Marissa + Cooper</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1>marissa + cooper</h1>
+        <p>are getting married on october 5th 2024</p>
+      </div>
+      <div class="middle home">
+        <a class="bubble" href="details.html">details</a>
+        <a class="bubble" href="story.html">story</a>
+        <a class="bubble" href="gallery.html">gallery</a>
+        <a class="bubble" href="qa.html">q+a</a>
+        <a class="bubble" href="travel.html">travel</a>
+      </div>
+      <div class="hide">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hJh1UMBve9U?si=yHeNBqQmRTDbabrl&amp;start=39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="floating-ball" onclick="toggleButtons()">...</div>
+      <div class="button-container">
+          <span class="button" onclick="changeStylesheet('style4.css')">Yee Haw</span>
+          <span class="button" onclick="changeStylesheet('styleA.css')">Style 0</span>
+          <span class="button" onclick="changeStylesheet('style1.css')">Style 1</span>
+          <span class="button" onclick="changeStylesheet('style2.css')">Style 2</span>
+          <span class="button" onclick="changeStylesheet('style3.css')">Style 3</span>
+          <span class="button" onclick="changeStylesheet('style4.css')">Style 4</span>
+      </div>
+    </div>
+  </body>
+</html>

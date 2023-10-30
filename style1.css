@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=DM+Serif+Display&family=Homemade+Apple&family=Imbue:opsz@10..100&family=Josefin+Slab&family=Limelight&family=Monoton&family=Neonderthaw&family=Poiret+One&family=Quicksand&family=Smokum&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=DM+Serif+Display&family=Homemade+Apple&family=Imbue:opsz@10..100&family=Josefin+Slab&family=Limelight&family=Monoton&family=Neonderthaw&family=Poiret+One&family=Quicksand&family=Smokum&family=Tilt+Neon&display=swap');
+
+:root {
+  --header-font: 'Smokum';
+  --main-font: 'Times New Roman';
+  --main-bg: #000;
+  --main-text: #FFF;
+  --accent: #FFF;
+  --accent-transparent: #0801;
+  --overlay-color: #0005;
+  --btn-bg: #0008;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 5px;
+}
+
+body {
+  background-image: url('pics/bg.jpg');
+  background-position-x: 61%;
+  background-size: cover;
+}
